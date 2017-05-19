@@ -1,17 +1,31 @@
 import React from 'react'
+import { Icon, List } from 'semantic-ui-react'
 
 export default class Links extends React.Component {
-    render(){
+    render() {
         return (
-            <div>
-                <ul>
-                    <li>Your Google Calendar</li>
-                    <li>Funsize Wiki</li>
-                    <li>Gusto</li>
-                    <li>Switch</li>
-                    <li>Settings</li>
-                </ul>
-            </div>
+                <List>
+                    <List.Item>
+                        <List.Icon className='icon' name='calendar outline' />
+                        <List.Content>Your Google Calendar</List.Content>
+                    </List.Item>
+                    <List.Item>
+                        <List.Icon className='icon' name='calendar outline' />
+                        <List.Content>Your Google Calendar</List.Content>
+                    </List.Item>
+                    <List.Item>
+                        <List.Icon className='icon' name='calendar outline' />
+                        <List.Content>Your Google Calendar</List.Content>
+                    </List.Item>
+                    <List.Item>
+                        <List.Icon className='icon' name='calendar outline' />
+                        <List.Content>Your Google Calendar</List.Content>
+                    </List.Item>
+                    <List.Item>
+                        <List.Icon className='icon' name='calendar outline' />
+                        <List.Content>Your Google Calendar</List.Content>
+                    </List.Item>
+                </List>
         )
     }
 }

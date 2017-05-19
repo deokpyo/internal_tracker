@@ -12,6 +12,7 @@ export default class Calendar extends React.Component {
                             <h2 >April<br/>
                             24<span className='date'></span></h2>
                             <div className='bigevent'>Jim's 3 year anniversary</div>
+                            <div className='event'>Test</div>
                         </div>
 
                     </Grid.Column>

@@ -22,8 +22,11 @@ a {
     color: #8b8b8b;
 }
 .bigevent {
-    font-size: 27px;
+    font-size: 1.688em;
     font-weight: bold;
+    height: auto;
+    overflow: visible;
+    margin: 10px 0;
 }
 .event {
     font-size: 15px;

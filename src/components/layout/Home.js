@@ -1,5 +1,5 @@
 import React from 'react'
-import { Calendar, Time, Links } from '../containers'
+import { Calendar, TimeZones, Links } from '../containers'
 import { Container, Header, Grid, Icon, Segment, Dimmer, Loader, Image } from 'semantic-ui-react';
 
 export default class Home extends React.Component {
@@ -29,7 +29,7 @@ export default class Home extends React.Component {
                             <Links />
                         </Grid.Column>
                         <Grid.Column width={11}>
-                            <Time />
+                            <TimeZones />
                         </Grid.Column>
                     </Grid.Row>
                 </Grid>
