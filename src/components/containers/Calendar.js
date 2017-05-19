@@ -10,7 +10,8 @@ export default class Calendar extends React.Component {
                     <Grid.Column>
                         <div className='box'>
                             <h2 >April<br/>
-                            24<span className='date'></span></h2>
+                            24<span className='date'>Today</span></h2>
+                            
                             <div className='bigevent'>Jim's 3 year anniversary</div>
                             <div className='event'>Brian Peterson is guest deskin'</div>
                         </div>

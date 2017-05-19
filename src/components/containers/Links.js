@@ -5,8 +5,8 @@ export default class Links extends React.Component {
         return (
                 <List>
                     <List.Item>
-                       <a> <List.Icon className='icon' name='calendar outline' />
-                        <List.Content>Your Google Calendar</List.Content></a>
+                       <List.Icon className='icon' name='calendar outline' />
+                        <List.Content> <a>Your Google Calendar</a></List.Content>
                     </List.Item>
                     <List.Item>
                         <List.Icon className='icon' name='globe' />
