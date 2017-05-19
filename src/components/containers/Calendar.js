@@ -13,6 +13,7 @@ export default class Calendar extends React.Component {
                             24<span className='date'></span></h2>
                             <div className='bigevent'>Jim's 3 year anniversary</div>
                             <div className='event'>Test</div>
+                            <div className='event'>Brian Peterson is guest deskin'</div>
                         </div>
 
                     </Grid.Column>

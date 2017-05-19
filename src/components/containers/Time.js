@@ -9,7 +9,7 @@ export default class TimeZones extends React.Component {
         return (
             <div>
                 <h4>Bend, OR</h4>
-                <span style={{backgroundColor: 'yellow', padding: 10}}></span><Moment tz="America/Creston" format="HH:mm">{now}</Moment>
+                <span style={{ backgroundColor: 'yellow', padding: 10 }}></span><Moment tz="America/Creston" format="HH:mm">{now}</Moment>
             </div>
         )
     }
