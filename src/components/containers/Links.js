@@ -1,5 +1,6 @@
 import React from 'react'
 import { Icon, List } from 'semantic-ui-react'
+
 export default class Links extends React.Component {
     render() {
         return (
