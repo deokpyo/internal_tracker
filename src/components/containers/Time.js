@@ -4,7 +4,7 @@ export default class Time extends React.Component {
     render(){
         return (
             <div>
-                <h1>Time</h1>
+                <h3>Time</h3>
             </div>
         )
     }
